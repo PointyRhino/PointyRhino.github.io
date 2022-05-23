@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>A Website</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
+    
+<div id="navbar">
+    <a class="active" href="https://pointyrhino.github.io">Home</a>
+    <a href="https://pointyrhino.github.io/c">C</a>
+    <a href="https://pointyrhino.githib.io/c++">C++</a>
+    <a href="https://pointyrhino.githib.io/java">Java</a>
+    <a href="https://pointyrhino.githib.io/python">Python</a>
+</div>
+
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
 
-<img src = "images/favicon.png" width="200" height="200">
 
-<a href="https://pointyrhino.github.io/c">Visit the C page!</a>
+<div>
+  <img style="vertical-align:middle" src="images/favicon.png" width="200" height="200">
+  <span style="">A batman logo for you to look at</span>
+</div>
+
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+    
 
 </body>
 </html>
