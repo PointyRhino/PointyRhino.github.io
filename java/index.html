@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Java</title>
+    <title>A Website</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
+<body>
+    
 <div id="navbar">
     <a href="https://pointyrhino.github.io">Home</a>
     <a href="https://pointyrhino.github.io/c">C</a>
@@ -15,9 +16,26 @@
     <a href="https://pointyrhino.githib.io/python">Python</a>
 </div>
 
-<h1>Page for C</h1>
-<p>C is a programming language</p>
+<h1>Hello Java</h1>
+<p>Java is a programming language.</p>
 
+
+
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+    
 
 </body>
 </html>
