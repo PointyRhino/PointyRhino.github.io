@@ -134,11 +134,125 @@ header{
 
 .main {
   margin-left: 12%; /* Same as the width of the sidenav */
-  
   padding: 0px 10px;
 }
 
+.mainpage{
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.pagetext{
+  font-size: 1.3vw;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 footer{
-  
-  margin-top: 3vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  background-color: #333;
+  color: white;
+}
+
+.centered{
+  position: absolute;
+  font-size: 4vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.title{
+  text-align: center; 
+  font-size: 3vw;
+  color: #5da3d6;
+}
+
+hr{
+  width: 3%;
+  margin:0 auto;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+tr{
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  text-align: left;
+  border-bottom: 1px solid #bcbcbc;
+}
+
+th{
+  padding-bottom: 3vw;
+  padding-top: 3vw;
+  text-align: left;
+}
+
+.profile{
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+  font-size: 1.3vw;
+}
+
+.brname{
+  display: block;
+  margin-bottom: 1.5vw;
+}
+
+.parabreak{
+  display: block;
+  margin-bottom: 1vw;
+}
+
+h3{
+  font-size: 1.7vw;
+}
+
+.circlepic{
+  width: 75%;
+  position: center;
+}
+
+.readMoreBtn{
+  border: none;
+  color: #5da3d6;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.readMoreBtn:hover{
+  color: white;
+  background-color: #5da3d6;
+}
+
+.hide{
+  display: none;
+}
+
+.leftdescription{
+  width: 30%;
+  margin-right: 3% 3% 3% 0%;
+  text-align: center;
+}
+
+.rightdescription{
+  width: 30%;
+  margin-left: 3% 0% 3% 3%;
+  text-align: center;
+}
+
+.middledescription{
+  width: 30%;
+  margin-left: 3% 1.5% 3%;
+  text-align: center;
 }
